@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Elektronik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveP.css">
+</head>
+<body>
+    <header>
+        <div class="Heads">
+            <span class="header-kiri">
+              <h1>Ahzidur</h1>
+            </span>   
+    
+            <div id="header-kanan">
+                <a href="#aboutme" class="headK">About Me</a>
+                <button onclick="darkmode()" class="headK" class = "modes">
+                  Mode
+                </button>
+              </div>
+        </div>
+    </header>
+
+    <center>
+        <div class="content1" align="center">
+            <h1 id="judul">Toko Elektronik AZM</h1>
+        </div>
+        <div class="responsive" align="center">
+            <div class="gallery">
+                <img src="assets/AC.jpeg" alt="AC" width="1000" height="600">
+              </a>
+              <div class="desc">AC</div>
+            </div>
+        </div>
+
+        <div class="responsive" align="center">
+            <div class="gallery">
+                <img src="assets/Kulkas.jpg" alt="Kulkas" width="1000" height="600">
+              </a>
+              <div class="desc">Kulkas</div>
+            </div>
+        </div>
+
+        <div class="responsive" align="center">
+            <div class="gallery">
+                <img src="assets/Mesin Cuci.jpg" alt="Mesin Cuci" width="1000" height="600">
+              </a>
+              <div class="desc">Mesin Cuci</div>
+            </div>
+        </div>
+
+        <div class="responsive" align="center">
+            <div class="gallery">
+                <img src="assets/TV.jpg" alt="Televisi" width="1000" height="600">
+              </a>
+              <div class="desc">Televisi</div>
+            </div>
+        </div>
+
+        <div class="responsive" align="center" >
+            <div class="gallery">
+                <img src="assets/Kipas Angin.jpg" alt="Kipas Angin" width="1000" height="600">
+              </a>
+              <div class="desc">Kipas Angin</div>
+            </div>
+        </div>
+
+        <div class="responsive" align="center" >
+            <div class="gallery">
+                <img src="assets/Lampu.jpg" alt="Lampu" width="1000" height="600">
+              </a>
+              <div class="desc">Lampu</div>
+            </div>
+        </div>
+        <button class="button" id="btn">Tampilkan Deskripsi</button>
+        <p id="det" style="display: none">
+          Toko elektronik merupakan toko yang menyediakan berbagai macam alat elektronik.
+          Baik itu yang memiliki fungsi sebagai perabotan dapur, perabotan rumah tangga atau pun lainnya.
+          Seperti yang Anda ketahui bahwa harga barang elektronik pasti cenderung mahal.
+        </p>
+    </center>
+  
+    <div class="form-container">
+      <h3>Pesan Sekarang!</h3>
+      <p>isi formulir dibawah ini</p>
+      <form action="">
+        <div class="input">
+          <label for="">Nama</label>
+          <input type="text" name="name" id="" required>
+        </div>
+        <div class="input">
+          <label for="">Telepon</label>
+          <input type="number" name="phone" id="" required>
+        </div>
+        <div class="input">
+          <label for="">Barang</label>
+          <select name="item">
+              <option value="Ac">Ac</option>
+              <option value="Kulkas">Kulkas</option>
+              <option value="Mesin Cuci">Mesin Cuci</option>
+              <option value="Televisi">Televisi</option>
+              <option value="Kipas Angin">Kipas Angin</option>
+              <option value="Lampu">Lampu</option>
+          </select>
+        </div>
+        <div class="input">
+          <label for="">Alamat</label>
+          <textarea name="address" required></textarea>
+        </div>
+
+        <a href="" class="sumbit">Submit!</a>
+      </form>
+    </div>
+    
+    
+  
+        <div class="footer-down">
+          <h3 id="aboutme" style="margin: 0; padding-top: 10px;">About Me</h3>
+          <p>Ahmad Zidan Maulidinnur</p>
+          <p style="margin: 0; padding-bottom: 10px;">Copyright &copy 2022 All Rights Reserved</p>
+        </div>
+        
+    
+
+
+<script src="script.js"></script>
+<script src="jquery.js"></script>
+</body>
+</html>

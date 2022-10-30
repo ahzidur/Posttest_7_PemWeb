@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    /* background-color: coral; */
+  }
+
+  .headK{
+    color: red;
+  }
+
+  .dark-mode-body {
+    background-color: black;
+    color: white;
+  }
+
+  .dark-mode-body header{
+    background-color: black;
+    color: white;
+
+  }
+
+  .dark-mode-head {
+    background-color: black;
+    color: white;   
+    background-image: url("assets/Logo.png");;
+  }
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(141, 141, 141);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-kiri {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;    
+  }
+
+  span h1:hover {
+    cursor: pointer;
+  }
+  
+  #header-kanan {
+    color: black;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  #header-kanan a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+  #header-kanan button {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    background-color: transparent;
+    border: none;
+  }
+  
+  #header-kanan a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  #header-kanan button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.content1{
+  padding: 150px 0px 100px 0;
+  background-image: url("assets/Logo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.content1 h1{
+  height: 550px;
+  color: wheat;
+  padding-top: 100px;
+}
+
+.content2{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.content2 a,
+.btn-buat {
+  background-color: rgb(0, 153, 255);
+  padding: 10px;
+  position: relative;
+  color: black;
+  border-radius: 7px;
+  border: 0;
+}
+
+.btn-buat:hover {
+  cursor: pointer;
+}
+
+.aksi {
+  margin: 15px 0;
+}
+
+.btn-aksi {
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+  text-align: center;
+  border: 0;
+}
+
+.update {
+  background-color: rgb(255, 94, 0);
+}
+.delete {
+  background-color: red;
+}
+
+/* list gambar */
+.konten-gambar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.gallery {
+  border: 2px solid #ccc;
+  width: 90%;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 200px;
+  height: 155px;
+}
+
+div.desc {
+  /* padding: 15px; */
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-down{
+  background-color: rgb(141, 141, 141);
+  width: 100%;
+  padding-left: 10%;
+}
+
+.form-container {
+  background-color: #eee;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.input{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+select {
+  line-height: 30px;
+}
+
+input, select, textarea {
+  width: 50%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.sumbit {
+  text-align: center;
+  background-color: #ADD8E6;
+  padding: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.result-container {
+  height: 700px;
+  padding: 70px 0;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bills-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.bills {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #eee;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+header.result {
+  position: relative;
+}
+
+table {
+  background-color: black;
+}
+
+th {
+  background-color: #eee;
+} 
+
+td {
+  background-color: white;
+}

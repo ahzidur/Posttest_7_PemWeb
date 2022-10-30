@@ -1,0 +1,101 @@
+@media all and (max-width: 1300px) {
+  .responsive {
+    width: 32.99999%;
+    margin: 6px 0;
+  }
+
+  div.gallery {
+    border: 2px solid #ccc;
+    width: 300px;
+  }
+  .content1{
+      height: 400px;
+      padding: 50px 0 10px 0;
+      background-image: url("assets/Logo.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+    }
+
+    .content1 h1{
+      height: 400px;
+      font-size: 40px;
+      color: wheat;
+    }
+
+    section{
+      height: 50%;
+    }
+}
+
+/* Tablet */
+@media all and (max-width: 1000px) {
+    .responsive {
+      width: 32.99999%;
+      margin: 6px 0;
+    }
+
+    .content1{
+        height: 300px;
+        padding: 50px 0 10px 0;
+        background-image: url("assets/Logo.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+      }
+
+      .content1 h1{
+        height: 300px;
+        font-size: 40px;
+        color: wheat;
+      }
+
+      section{
+        height: 50%;
+      }
+  }
+  
+  /* Smartphone */
+  @media all and (max-width: 670px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+
+    .content1{
+        height: 200px;
+        padding: 30px 0 10px 0;
+        background-image: url("assets/Logo.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-position: center;
+      }
+
+      .content1 h1{
+        height: 200px;
+        font-size: 30px;
+        color: wheat;
+      }
+  }
+
+
+  @media all and (max-width: 400px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+    div.gallery {
+      border: 2px solid #ccc;
+      width: 150px;
+    }
+    #header-kanan a {
+      padding: 0 5px;
+    }
+
+    .content1{
+      height: 150px;
+    }
+  }
